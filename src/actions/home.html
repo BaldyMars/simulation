@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+        body{
+          height:2000px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .clearfix {
+            zoom: 1;
+            display: inline-block;
+        }
+        .clearfix:before,
+        .clearfix:after {
+            display: block;
+            content: ".";
+            height: 0;
+            line-height: 0;
+            clear: both;
+            visibility: hidden
+        }
+        .detail {
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background: rgba(7, 17, 27, 0.8)
+        }
+        .detail-wrapper {
+            min-height: 100%;
+        }
+        .detail-main {
+            margin-top: 64px;
+            padding-bottom: 64px;
+        }
+        .detail-close {
+            position: relative;
+            width: 32px;
+            height: 32px;
+            margin: -64px auto 0 auto;
+            clear: both;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+<div class="detail">
+        <div class="detail-wrapper clearfix">
+            <div class="detail-main">
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+                <p>随意添加内容</p>
+            </div>
+        </div>
+        <div class="detail-close">+</div>
+    </div>
+</body>
+</html>
